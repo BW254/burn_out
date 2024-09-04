@@ -34,5 +34,14 @@ library(corrplot)
 library(randomForest)
 library(ROCR)
 ```
+Import the dataset and observe the descriptives-
+```
+setwd("C:/Users/ADMN/Desktop/random forest")
+burnout<-read.csv("dataset.csv",header = TRUE,sep = ",")
+psych::describe(burnout)
+md.pattern(burnout)
+```
+![Missing values](https://github.com/user-attachments/assets/006218ea-8c1b-4087-a2f8-4bf41d4c9274)
+
 
 
