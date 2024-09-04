@@ -41,6 +41,11 @@ burnout<-read.csv("dataset.csv",header = TRUE,sep = ",")
 psych::describe(burnout)
 md.pattern(burnout)
 ```
+## Descriptives and missing values
+![Descriptives](https://github.com/user-attachments/assets/edbb0926-648b-4da5-9c40-a90528d755e0)
+
+The first 6 variables (columns) are complete considering that n = 22750, while the last 3 variables have missing records.
+
 ![Missing values](https://github.com/user-attachments/assets/006218ea-8c1b-4087-a2f8-4bf41d4c9274)
 
 ### Interpretation
