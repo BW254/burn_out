@@ -5,5 +5,34 @@ There are a number of factors that are believed to cause burnout. Burnout has ne
 ## Purpose
 Some of the potential predictors for burnout rate include gender, company type, work-from-home availability, designation, resource allocation, and mental fatigue. The purpose of this study is to identify the true predictors of burnout rate with the aim of developing a model that can predict the burnout rate given some values of the predictor variables.
 # Data Preprocessing
-We began this exercise by preparing the data.
+install required packages-
+``` R
+install.packages("pdp")
+install.packages("vip")
+install.packages("gbm")
+install.packages("glmnet")
+install.packages("caret")
+install.packages("psych")
+install.packages("corrplot")
+install.packages("randomForest")
+install.packages("ROCR")
+install.packages("Metrics")
+library(Metrics)
+library(psych)
+library(tidyverse)
+library(rpart)
+library(rpart.plot)
+library(dplyr)
+library(gbm)
+library(vip)
+library(pdp)
+library(mice)
+library(magrittr)
+library(caret)
+library(glmnet)
+library(corrplot)
+library(randomForest)
+library(ROCR)
+```
+
 
