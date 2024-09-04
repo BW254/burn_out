@@ -42,6 +42,27 @@ psych::describe(burnout)
 md.pattern(burnout)
 ```
 ![Missing values](https://github.com/user-attachments/assets/006218ea-8c1b-4087-a2f8-4bf41d4c9274)
+###Interpretation
+Missing values are from the last three columns (variables). The last column, Burn.Rate, has 2117 missing values, followed by Mental.Fatigue.Score with 1381, and Resource.Allocation with 1124 missing values. Based on the plot, there are 15 instances where each of these variables missed 3 records, 88 instances where  Mental.Fatigue.Score and Resource.Allocation missed 2 records, etc. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
